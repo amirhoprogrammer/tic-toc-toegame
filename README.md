@@ -10,13 +10,29 @@
 ![choosemode](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/choosemode.png).
 ### Vs_computer
 وقتی روی این گزینه کلیک کنیم. بازی به حالت بازی با کامپیوتر اجرا می شود که در ادامه اینکه کامپیونر چگونه با ما بازی می کند عرض خواهم کرد .
-
-![boardgame](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/boardgame.png).
 ### Two_player
 وقتی روی این گزینه کلیک کنیم. بازی به حالت بازی دو نفره اجرا می شود یعنی شما با دوست خودت یا رقیبت می تونی بازی کنی.
 ### Start_game 
 از دیگر اجزا آن می توان به Start_game اشاره کرد وقتی روی گزینه های "Vs Computer" یا "Two player" کلیک می کنیم این صفحه به صفحه بازی انتقال پیدا می کند که به وسیله متد Start_game این اتفاق می افتد.
+
+![boardgame](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/boardgame.png).
 ### on_click
 و آخرین جزء آن On_click است که پس از پایان یک messagebox منتشر می شود که در آن برنده بازی و نتیجه مشخص می شود.
+## winnig
+حالت های پایانی مسابقه به شرح زیر است:
+### Player-one win
+بازیکن شماره یک با "X" شروع می کند برنده می شود.
+
+![playerO](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/player%20O.png).
+### Player-two win
+بازیکن شماره دو با "o" شروع می کند برنده می شود.
+
+![playerX](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/player%20X.png).
+### computer win
+کامپیوتر برنده بازی میشود.
+### draw
+هیچ کس برنده نمی شود.
+
+![draw](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/draw.png).
 
 
