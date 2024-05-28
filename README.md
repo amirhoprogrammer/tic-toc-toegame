@@ -30,6 +30,8 @@
 ![playerX](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/player%20X.png).
 ### computer win
 کامپیوتر برنده بازی میشود.
+## کد بازی
+![code bazi](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-25%2017-58-28-997.jpg).
 ### draw
 هیچ کس برنده نمی شود.
 
