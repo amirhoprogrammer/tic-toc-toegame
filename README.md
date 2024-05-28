@@ -41,6 +41,8 @@
 ![code bazi](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-25%2018-01-49-882.jpg).
 ![code bazi](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-25%2018-02-38-863.jpg).
 ![code bazi](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-25%2018-03-09-910.jpg).
+## معماری بازی
+![architecture code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-05-28%2023-19-40-505.jpg).
 
 
 
