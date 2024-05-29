@@ -103,12 +103,14 @@
    برای اینکه بتونیم messagebox در پروژه درست کنیم باید آن را از tkinter import کنیم.
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-26%2011-22-17-644.jpg).
 ###  run_the_game
-موقعی برنامه ران می کنیم مقدار این متغیر برابر "__main__" می شود دستور داخل این شرط یعنی صدا زدن تابع ()choose_mode اجرا می شود
+موقعی برنامه ران می کنیم مقدار این متغیر برابر "__main__" می شود دستور داخل این شرط یعنی صدا زدن تابع ()choose_mode اجرا می شود.
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-26%2012-46-02-516.jpg).
 ###  start_game
-زمانی کاربر یکی از دکمه برای بازی که در آن مشخص می شود بازیکن آیا با دوستش بازی می کند یا با کامپیوتر؟ ولی در بررسی دقیق این تابع می توان گفت ورودی تابع یعنی "mode" مشخص می کند کاربر کدام دکمه را زده و میاد از tkinter یک window می سازد و برای نمایش حتما متد mainloop را در آخر صدا زده بعد ساختن window کلاس TicTacToe را صدا زده
+زمانی کاربر یکی از دکمه برای بازی که در آن مشخص می شود بازیکن آیا با دوستش بازی می کند یا با کامپیوتر؟ ولی در بررسی دقیق این تابع می توان گفت ورودی تابع یعنی "mode" مشخص می کند کاربر کدام دکمه را زده و میاد از tkinter یک window می سازد و برای نمایش حتما متد mainloop را در آخر صدا زده بعد ساختن window کلاس TicTacToe را صدا زده است.
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-26%2012-46-35-483.jpg).
 ###  choose_mode
+
+همانطور که می دانید این موقع ران کردن برنامه اجرا می شود. در این تابع ما صفحه اول بازی را می سازیم. ابتدا یک window از tkinter می سازیم و سپس متد mainloop را برای نمایش آن در انتها صدا می زنیم بعد ساختن این window برای آن title و رنگ پس زمینه انتخاب می کنیم بعد دو متد start_two_computer , start_vs_computer را می نویسم که ساز و کار هردو شبیه هم هستند. در واقع این پنجره صفحه پس از زدن دکمه یا صفحه بازی می شود بدین شکل پنجره صفحه حال حاضر را می بندد.تابع start_game را با mode مخصوص خود یعنی برای vs_computer(computer) , startcomputer(two_player) است را صدا می زنیم.
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-26%2012-38-02-822.jpg).
 ###  class TicTacToe
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-27%2011-58-17-701.jpg).
