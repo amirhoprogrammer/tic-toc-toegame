@@ -6,7 +6,7 @@ class TicTacToe:
     def __init__(self, root, mode):
         self.root = root#make a page of game
         self.root.title("Tic-Tac-Toe")
-        self.root.config(bg="black")
+        self.root.config(bg="black") #background page
 
         self.mode = mode#for determination of userturn
 
@@ -23,26 +23,26 @@ class TicTacToe:
         self.buttons = []
         for i in range(9):#show the board of game
             row, col = divmod(i, 3)
-            button = tk.Button(root, text=" ", font=("Helvetica", 24), width=5, height=2,
-                               command=lambda i=i: self.on_click(i),bg="black",fg="green")
+            button = tk.Button(root, text=" ", font=("Helvetica", 24), width=5, height=2,command=lambda i=i: self.on_click(i),bg="black",fg="green")
             button.grid(row=row + 1, column=col)
             self.buttons.append(button)
 
         if self.mode == "computer" and self.current_player == "O":#computer plays 
             self.computer_move()
 
-    def on_click(self, index):
+    def on_click(self, index):#for click on board game
         if self.board[index] == " ":
             self.board[index] = self.current_player
             self.buttons[index].config(text=self.current_player,fg = "red" if self.current_player=="X" else "blue")
-            if self.check_winner():
+            if self.check_winner(): #if the player win the game
                 self.player_scores[self.current_player] += 1  # Increment score of the winning player
                 self.update_score_labels()  # Update score labels
+                #show the result
                 messagebox.showinfo("Game Over", f"Player {self.current_player} wins!\nScores:\n X = {self.player_scores['X']},\n O = {self.player_scores['O']}")
-                self.reset_game()#show the result
-            elif " " not in self.board:
+                self.reset_game() #reseting the game
+            elif " " not in self.board: #draw
                 messagebox.showinfo("Game Over", "It's a draw!")#show the result
-                self.reset_game()
+                self.reset_game() #reseting the game
             else:#determination the computer turn
                 self.current_player = "X" if self.current_player == "O" else "O"
                 if self.mode == "computer" and self.current_player == "O":
