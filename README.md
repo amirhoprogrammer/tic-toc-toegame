@@ -131,13 +131,15 @@
 
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-27%2012-27-21-640.jpg).
 ###  reset_game
-با این متد بازی را از اول می کنیم. به این صورت که تمام خانه های پر شده را پاک میکنیم و نوبت را به x میدهیم("current_player="x)
+با این متد بازی را از اول می کنیم. به این صورت که تمام خانه های پر شده را پاک میکنیم و نوبت را به x میدهیم("current_player="x).
 
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-27%2012-33-05-227.jpg).
 ###  update_score_labels
-با این متد امتیازات بازیکنان به روز می شود
+با این متد امتیازات بازیکنان به روز می شود.
+
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-27%2012-36-26-531.jpg).
 ###  computer_move
+این متد برای انجام حرکات کامپیوتر در بازی است. در ابتدا باید آؤایه درست می کنیم که index آرایه های خالی می ریزیم توش وبعد شرط می گذاریم روی این آرایه و بعد می آیم برنده شدن چک می کنیم و در واقع حرکات برنده را بررسی و بررسی در حلقه دوم حرکات بلاک کننده بررسی و در نهایت یک خانه تصادفی برای انجام حرکات کامپیوتر انجام می دهیم و در نهایت اگر خانه خالی نبود حالت راتساوی را چاپ می کنیم.
 ![explain code](https://github.com/amirhoprogrammer/tic-toc-toegame/blob/main/%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C/bandicam%202024-03-27%2013-10-10-465.jpg).
 ## خلاصه
 خلاصه
