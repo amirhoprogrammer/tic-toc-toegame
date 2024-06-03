@@ -15,7 +15,7 @@ class TicTacToe:
         self.board = [" " for _ in range(9)]
 
         self.score_labels = {}
-        for player in self.player_scores:#show the scores
+        for player in self.player_scores:#show the scores & header
             label = tk.Label(root, text=f"{player} {self.player_scores[player]}", font=("Helvetica", 14),bg="black",fg="green")
             label.grid(row=0, column=len(self.score_labels), padx=10, pady=5)
             self.score_labels[player] = label
@@ -79,7 +79,9 @@ class TicTacToe:
                     self.player_scores[self.current_player] += 1  # Increment score of the winning player
                     self.update_score_labels()  # Update score labels
                     messagebox.showinfo("Game Over", f"Player {self.current_player} wins!\nScores:\n X = {self.player_scores['X']}\n O = {self.player_scores['O']}")
+                    #print results
                     self.reset_game()
+                    #reset the game
                     return
                 self.board[index] = " "
 
@@ -98,8 +100,9 @@ class TicTacToe:
             self.board[move_index] = "O"
             self.buttons[move_index].config(text="O", fg = "red" if self.current_player=="X" else "blue")
             self.current_player = "X"
-        else:#if noone doesn't win
+        else:#if no one doesn't win
             messagebox.showinfo("Game Over", "It's a draw!")
+            #print results
             self.reset_game()
 
 def start_game(mode):#if user push the button to start the game
